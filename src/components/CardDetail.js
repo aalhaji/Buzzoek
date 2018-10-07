@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Text, View, Image, Linking} from 'react-native';
-import Container from './Container';
-import ContainerSection from './ContainerSection';
-import Button from './Button';
+import Container from './common/Container';
+import ContainerSection from './common/ContainerSection';
+import Button from './common/Button';
 
 // create component
 
@@ -40,7 +40,7 @@ export default class CardDetail extends Component {
 
     <Button onPress = {() => Linking.openURL(this.props.card.url)}>
 
-    Buy Now
+    Navigate to Website
 
     </Button>
 

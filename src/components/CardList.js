@@ -14,6 +14,12 @@ export default class CardList extends Component {
     .then(response => this.setState( { cards: response.data } ));
   }
 
+  //componentWillMount() {
+  //  axios.get('https://api-test.countr.rest/v2/buzz_test')
+  //  .then(response => this.setState( { cards: response.data } ));
+//  }
+
+
   renderCards() {
 
     return this.state.cards.map(card =>

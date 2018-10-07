@@ -23,7 +23,7 @@ const styles = {
 
   buttonStyle: {
 
-    flex: 1, // take your space
+    //flex: 1, // take your space
     alignSelf: 'stretch',
     backgroundColor: '#fff',
     borderRadius: 5,
